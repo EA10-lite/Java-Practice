@@ -1,13 +1,13 @@
 class DrumKitLaunch {
     public static void main(String[] args){
-	DrumKit d = new DrumKit();
+        DrumKit d = new DrumKit();
 
-	if (d.snare == true){
-	    d.playSnare();
-	}
+        if (d.snare == true){
+            d.playSnare();
+        }
 
-	d.snare = false;
-	d.playTopHat();
+        d.snare = false;
+	    d.playTopHat();
     }
 }
 
@@ -16,10 +16,10 @@ class DrumKit {
     boolean snare = true;
 
     void playSnare(){
-	System.out.println("bang bang ba-bang");
+	    System.out.println("bang bang ba-bang");
     }
 
     void playTopHat(){
-	System.out.println("ding ding da-ding");
+	    System.out.println("ding ding da-ding");
     }
 }
